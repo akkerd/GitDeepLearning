@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A new repository is created, but it's empty. You need to choose and commit the files you want to track. The command "git init" only serves to open the new place to save your commits.
+	
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	The staging area is the intermediate area where the files to commit are putted.
+	It's actually very useful, as you can shoose which files do you want to upload per each commit, even if you have more changes in your working directory.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
