@@ -2,20 +2,27 @@ What happens when you initialize a repository? Why do you need to do it?
 	A new repository is created, but it's empty. You need to choose and commit the files you want to track. The command "git init" only serves to open the new place to save your commits.
 	
 How is the staging area different from the working directory and the repository?
+
 What value do you think it offers?
 	The staging area is the intermediate area where the files to commit are putted.
 	It's actually very useful, as you can shoose which files do you want to upload per each commit, even if you have more changes in your working directory.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	Using the commands "git diff", "git diff --staged" and "git diff commit1 commit2" you can compare
+	the working directory, the staging area and the commits to see whats different between each other.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches allow to create new versions of the game without having to change the main version. So it allow to experiment and create and develop new big features.
 
 How do the diagrams help you visualize the branch structure?
+	They are oke, help to see the hierarchy. But it's not the freaking best shit in the world, it's just okey.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	It merges the addings and the deletes comparing with the original file (the las commit before making a branch). The diagram we made is actually how git sees the project if you run the command "git log --graph --oneline".
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Manually you have more control on the code that you are changin. And it helps to keep the code clear and readable even between several coders. And automatic is just faster and easier sometimes xD
